@@ -63,14 +63,13 @@ We used the precompiled [`substrate-contracts-node`](https://github.com/parityte
 - Initial contract deployment failed due to `contracts.CodeRejected`, likely related to metadata or runtime mismatch.
 - Debugging still ongoing. However, all core steps were executed.
 
-## 📷 Screenshots
+## Quality Assurance Report
 
-Included in `screenshots/` folder.
+For an in-depth breakdown of our development experience, build issues, and tooling observations, please refer to the [QA Report](./polkadot_drypto_qa_report.md).
 
 ## 🧠 Authors
 
 - `@jeytuan` – Justin Nguyen
 
-## 📬 Submission Note
 
-A final PDF summary + GitHub repo link will be submitted to Anthony Beaumont and Rebecca Manoharan.
+---
