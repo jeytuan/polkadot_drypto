@@ -1,0 +1,16 @@
+[package]
+name = "my_contract"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+path = "src/lib.rs"
+
+[dependencies]
+ink = { git = "https://github.com/paritytech/ink.git", tag = "v5.1.1", default-features = false }
+ink_macro = { git = "https://github.com/paritytech/ink.git", tag = "v5.1.1" } # Explicitly add ink_macro
+
+[features]
+default = ["std"]
+std = ["ink/std"]
